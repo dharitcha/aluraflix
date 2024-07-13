@@ -16,7 +16,7 @@ O Aluraflix foi o desafio final do curso de React do programa Alura com a Oracle
 
 
 ## ⚙️ Funcionalidades do projeto:
-O Aluraflix é uma plataforma de vídeos da Alura, que categoriza os conteúdos e permite personalizar os vídeos por meio dos formulários. Na função de Novo Vídeo é possível adicionar novos vídeos no banco de dados e expor na página inicial de acordo com ascategorias:
+O Aluraflix é uma plataforma de vídeos da Alura, que categoriza os conteúdos e permite personalizar os vídeos por meio dos formulários. Na função de Novo Vídeo é possível adicionar novos vídeos no banco de dados e expor na página inicial de acordo com as categorias:
 
 ![Página Novo Vídeo](https://github.com/user-attachments/assets/7e8c834d-fead-49f9-a722-53681eeef02c)
 

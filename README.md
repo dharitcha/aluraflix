@@ -43,5 +43,5 @@ Com isso, o projeto fica super dinâmico, permitindo que você personalize como 
 
 Obs: para poder aproveitar todas as funcionalidades, você precisa ter o Node e o Json Server instalados, e rodar os comandos:
 
-- <npm run dev>
-- <json-server --watch db.json>
+- npm run dev
+- json-server --watch db.json

@@ -37,7 +37,7 @@ const RodapeEstilizado = styled.footer`
 const Rodape = () => {
     return (
         <RodapeEstilizado>
-            <img src="./public/imagens/logo.png" alt="Logo do AluraFlix" />
+            <img src="./imagens/logo.png" alt="Logo do AluraFlix" />
         </RodapeEstilizado>
     )
 }

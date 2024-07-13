@@ -1,0 +1,102 @@
+{
+  "categorias": [
+    {
+      "id": "1",
+      "titulo": "Front End",
+      "cor": "#6bd1ff"
+    },
+    {
+      "id": "2",
+      "titulo": "Back End",
+      "cor": "#00C86F"
+    },
+    {
+      "id": "3",
+      "titulo": "Mobile",
+      "cor": "#FFBA05"
+    }
+  ],
+  "videos": [
+    {
+      "id": "1",
+      "categoria": "1",
+      "titulo": "O que faz uma desenvolvedora front-end?",
+      "imagem": "https://i.ytimg.com/vi/ZY3-MFxVdEw/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ZY3-MFxVdEw",
+      "descricao": "O que é Front-end? Trabalhando na área os termos HTML, CSS e JavaScript fazem parte da rotina das desenvolvedoras e desenvolvedores. Mas o que eles fazem, afinal? Descubra com a Vanessa nesse episódio!"
+    },
+    {
+      "id": "2",
+      "categoria": "1",
+      "titulo": "Template String: Interpolando strings com JavaScript",
+      "imagem": "https://i.ytimg.com/vi/ORI_HTXaIw0/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0",
+      "descricao": "Como funciona o Template String no JavaScript? O instrutor Felipe Nascimento fala exatamente sobre isso neste Alura+ e explica o uso desta funcionalidade com exemplos práticos. Confira!"
+    },
+    {
+      "id": "3",
+      "categoria": "1",
+      "titulo": "Aprenda a transformar design em código com o Figma",
+      "imagem": "https://i.ytimg.com/vi/sup2hlWm5yE/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sup2hlWm5yE",
+      "descricao": "Se você é Dev Front-End e quer aprender como utilizar o Figma, vem com a gente! A Rafaella Ballerini, instrutora de Front-End na Alura, vem trazer várias dicas pra você transformar o design em código. Aprenda como exportar imagens, ícones e inspecionar os elementos direto do Figma."
+    },
+    {
+      "id": "4",
+      "categoria": "1",
+      "titulo": "SEO com React",
+      "imagem": "https://i.ytimg.com/vi/c8mVlakBESE/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=c8mVlakBESE",
+      "descricao": "Eu to aqui pra nesse vídeo dizer que a gente vai aprender a começar uma app inspirada no desenho Pokémon com Nextjs e React, ver algumas dicas sobre performance e de quebra conhecer uma plataforma sensacional pra fazer deploy que é a Vercel. Tudo em 22 minutos nesse vídeo feito com todo o carinho do mundo construindo uma Pokedex!",
+      "video": "https://www.youtube.com/watch?v=c8mVlakBESE"
+    },
+    {
+      "id": "5",
+      "categoria": "2",
+      "titulo": "Carreira Backend: O que estudar?",
+      "imagem": "https://i.ytimg.com/vi/DmgiRK-yZ_A/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=DmgiRK-yZ_A",
+      "descricao": "O que será que um programador ou programadora backend precisa estudar pra trabalhar na área? Nesse vídeo listamos algumas das coisas de uma maneira a ser um roteiro do zero até montar APIS."
+    },
+    {
+      "id": "6",
+      "categoria": "2",
+      "titulo": "GitHub CLI - Uma Nova Experiência no Github!",
+      "imagem": "https://i.ytimg.com/vi/6o6-bKOZOEY/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY",
+      "descricao": "Nesse vídeo vamos aprender um pouco mais o que seria o GitHub CLI e quais são as suas vantagens!"
+    },
+    {
+      "id": "7",
+      "categoria": "2",
+      "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
+      "imagem": "https://i.ytimg.com/vi/Uh-GNH-t89w/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w",
+      "descricao": "PHP, JavaScript, Python, Java e outras... qual é a melhor? Como surgiram essas linguagens e quais as aplicações e usos de cada uma na aprendizagem e para o mercado? Descubra nesta conversa da Roberta Arcoverde e do Paulo Silveira."
+    },
+    {
+      "id": "8",
+      "categoria": "3",
+      "titulo": "Desenvolvimento Android #HipstersPontoTube",
+      "imagem": "https://i.ytimg.com/vi/fWscDFHKgw8/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=fWscDFHKgw8",
+      "descricao": "Um episódio focado no desenvolvimento de aplicações Android. Neste bate-papo, Paulo Silveira e Felipe Torres conversam sobre os primeiros passos para começar a desenvolver, quais as principais ferramentas do desenvolvimento mobile, como colocar sua aplicação no ar e mais!"
+    },
+    {
+      "id": "9",
+      "categoria": "3",
+      "titulo": "Emily Janzer - The New React Native",
+      "imagem": "https://i.ytimg.com/vi/52El0EUI6D0/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=52El0EUI6D0",
+      "descricao": "The React Native team is excited to share the roadmap for what we've been working on in the new architecture including new native modules, a new renderer, and a new initialization path which doesn't rely on the bridge. We're calling all of these projects collectively The New React Native. Give this talk a watch and let us know what you think!"
+    },
+    {
+      "id": "10",
+      "categoria": "3",
+      "titulo": "Flutter e o seu primeiro hello world",
+      "imagem": "https://i.ytimg.com/vi/xSC8j3gl7xM/maxresdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=xSC8j3gl7xM&t=2s",
+      "descricao": "Chegou a hora de criarmos nosso primeiro aplicativo com o Flutter e entender como fazer tudo funcionar!"
+    }
+  ]
+}

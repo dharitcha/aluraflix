@@ -22,7 +22,7 @@ const FormModal = styled.div`
   padding: 5% 10%;
   border: solid 5px #6BD1FF;
   border-radius: 15px;
-  width: 60%;
+  width: 70%;
   max-width: 90%;
   max-height: 90vh;
   display: flex;
@@ -32,7 +32,7 @@ const FormModal = styled.div`
   z-index: 1010; 
   position: relative;
 
-  @media (max-width: 1000px) {
+  @media (max-width: 1040px) {
         width: 80%;
         max-width: 100%;
         max-height: 95vh;

@@ -51,7 +51,7 @@ const Cabecalho = ({ color, children }) => {
     return (
         <HeaderEstilizado color={color}>
             <LogoContainer onClick={() => navigate("/")}>
-                <img src="./public/imagens/logo.png" alt="Logo do AluraFlix" />
+                <img src="./imagens/logo.png" alt="Logo do AluraFlix" />
             </LogoContainer>
             <ContainerEstilizado>
                 {children}

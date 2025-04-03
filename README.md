@@ -41,7 +41,7 @@ This setup makes Aluraflix highly dynamic, allowing users to personalize their v
 ## Installation and Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/aluraflix.git
+   git clone https://github.com/dharitcha/react-video-streaming-project.git
    ```
 2. Navigate to the project folder:
    ```sh

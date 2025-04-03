@@ -1,47 +1,70 @@
-# 🎥 Aluraflix 🎥
+# 🎥 Aluraflix - Video Streaming Platform
+
+## Overview
+Aluraflix was the final challenge in the React course of the Alura and Oracle Next Education (ONE) program. The goal was to create a React-based API from scratch, inspired by Netflix, using only a Figma design as a reference. This project incorporates various React features and `json-server` to make the API dynamic.
 
 ![Aluraflix Home Page](https://github.com/user-attachments/assets/7a5f26d0-71a8-451b-b831-acb5261cc460)
 
+## Features
+- **React Framework:** Built using Vite and React.
+- **Component-based Architecture:** Modular and reusable components.
+- **Styled Components:** Custom styling for a modern look.
+- **React Router Dom:** Enables seamless navigation between pages.
+- **React Hooks:** Uses `useContext()`, `useEffect()`, and `useState()`.
+- **API Interaction:** Fetches and manages data using `json-server` with GET, POST, PUT, and DELETE requests.
+- **Form Validation:** Ensures valid input before submitting data.
 
-## 🎯 Objetivos do projeto:
-O Aluraflix foi o desafio final do curso de React do programa Alura com a Oracle Next Education (ONE). O objetivo do desafio foi criar uma api React do zero, inspirada na Netflix, baseando somente no design do Figma. No projeto foi utilizado ferramentas de React e json-server para deixar a api dinâmica e praticar funcionalidades do React, como:
+## How It Works
+### Adding Videos
+- Users can add new videos using the "New Video" form.
+- Videos are categorized and stored in the database.
+- The homepage dynamically updates with new videos.
 
-- Vite + React
-- Criação e personalização de Componentes
-- Styled components
-- React Router Dom
-- Hooks do React: useContext(), useEffect(), useState()
-- json-server: fetch API, POST, PUT e DELETE
-- Validação de formulários com JavaScript 
+![New Video Page](https://github.com/user-attachments/assets/7e8c834d-fead-49f9-a722-53681eeef02c)
+![New Video Page](https://github.com/user-attachments/assets/aa4928c2-4348-43ad-9bf9-6673314c290a)
 
+### Editing and Deleting Videos
+- Videos can be edited directly from the homepage.
+- Clicking "Edit" allows users to update video details.
+- Clicking "Delete" removes the video from the database.
 
-## ⚙️ Funcionalidades do projeto:
-O Aluraflix é uma plataforma de vídeos da Alura, que categoriza os conteúdos e permite personalizar os vídeos por meio dos formulários. Na função de Novo Vídeo é possível adicionar novos vídeos no banco de dados e expor na página inicial de acordo com as categorias:
+![Edit Video](https://github.com/user-attachments/assets/024ea02b-6859-4ea5-863f-f4af971885b7)
 
-![Página Novo Vídeo](https://github.com/user-attachments/assets/7e8c834d-fead-49f9-a722-53681eeef02c)
+This setup makes Aluraflix highly dynamic, allowing users to personalize their video collections effortlessly. 😄
 
-![Página Novo Vídeo](https://github.com/user-attachments/assets/aa4928c2-4348-43ad-9bf9-6673314c290a)
+## Technologies Used
+- **React**
+- **json-server**
+- **JavaScript (ES6+)**
+- **CSS3**
 
-Já na página inicial, é possível editar as categorias por meio dos cards. O botão de "Editar" permite atualizar no banco de dados um vídeo já existente:
+## Installation and Usage
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/aluraflix.git
+   ```
+2. Navigate to the project folder:
+   ```sh
+   cd aluraflix
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Start the mock API server:
+   ```sh
+   json-server --watch db.json --port 3000
+   ```
+6. Open the project in your browser.
 
-![Editar Vídeo](https://github.com/user-attachments/assets/024ea02b-6859-4ea5-863f-f4af971885b7)
+## Live Demo
+You can access the live version here: **[Aluraflix on Vercel](https://aluraflix-puce.vercel.app/)**
 
-E o botão de "Deletar" remove os vídeos do banco de dados.
+⚠ **Note:** Full functionality requires `json-server` to be running locally.
 
-Com isso, o projeto fica super dinâmico, permitindo que você personalize como quiser a sua coleção de vídeos! 😄
-
-
-## 🛠️ Tecnologias utilizadas:
-- React;
-- json-server;
-- JavaScript;
-- CSS.
-
-## 🌐: Acesse o projeto na Vercel:
-
-[Aluraflix](https://aluraflix-puce.vercel.app/)
-
-Obs: para poder aproveitar todas as funcionalidades, você precisa ter o Node e o Json Server instalados, e rodar os comandos:
-
-- npm run dev
-- json-server --watch db.json
+## License
+This project is open-source and available under the MIT License.
